@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -moz-user-drag: none;
+    font-family: sans-serif;
+}
+
+html, body, #root {
+    width: 100vw;
+    height: 100vh;
+}
+
+.react-transform-component {
+    width: 100%;
+    height: 100%;
+}
+
+.react-transform-element {
+    width: -moz-fit-content;
+    height: -moz-fit-content;
+}
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+table td {
+    border-left: 1px solid black;
+}

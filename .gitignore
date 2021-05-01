@@ -1,0 +1,5 @@
+node_modules/
+.cache/
+dist/
+
+state/firebase_config.js
